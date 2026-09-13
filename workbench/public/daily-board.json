@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "builtAt": "2026-09-13T10:04:29.571Z",
+  "builtAt": "2026-09-13T10:08:34.591Z",
   "about": {
     "role": "Agent 学习者 / 求职者",
     "who": "# 我是谁\n\n## 基本情况\n\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\n- 当前阶段：打基础 + 做作品 + 关注行业新品\n- 协作对象：自己、同学、导师、招聘方\n\n## 我在乎什么\n\n- 每天有可验证的学习产出，不只收藏链接\n- 看仓库要能说出架构与可复用点\n- 探索要服务求职：作品集、面试表达、技术判断力\n\n## 我讨厌什么\n\n- 信息过载、只刷不练\n- 无目标地 star 一堆仓库\n- 空泛的「学习了 AI」而没有项目证据\n",
@@ -36,7 +36,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389560,
+      "stars": 389561,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -47,7 +47,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-13T10:02:24Z",
+      "updatedAt": "2026-09-13T10:08:31Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -156,84 +156,126 @@
     }
   ],
   "githubMeta": {
-    "syncedAt": "2026-09-13T10:04:29.298Z",
+    "syncedAt": "2026-09-13T10:08:34.222Z",
     "auth": true,
     "errors": []
   },
   "producthunt": [
     {
-      "name": "Cursor",
-      "tagline": "AI-first code editor / agentic coding",
-      "url": "https://www.producthunt.com/products/cursor",
-      "votes": null,
+      "name": "Juicy Taskdock",
+      "tagline": "Animated hover effects for your Windows taskbar",
+      "url": "https://www.producthunt.com/products/juicy-taskdock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
       "topics": [
-        "Developer Tools",
-        "AI"
-      ],
-      "insight": "观察 IDE Agent 如何把工具调用、规则与工作区结合起来，对求职演示很有价值。"
-    },
-    {
-      "name": "Claude",
-      "tagline": "AI assistant with projects, artifacts, and computer use",
-      "url": "https://www.producthunt.com/products/claude",
-      "votes": null,
-      "topics": [
-        "AI",
+        "Windows",
+        "Design Tools",
         "Productivity"
       ],
-      "insight": "关注 Skills / MCP / Projects 如何沉淀成可复用工作流。"
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
     },
     {
-      "name": "v0",
-      "tagline": "AI UI generation by Vercel",
-      "url": "https://www.producthunt.com/products/v0",
-      "votes": null,
+      "name": "Jobbook",
+      "tagline": "Offline quotes, invoices and payment records for trades",
+      "url": "https://www.producthunt.com/products/jobbook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Productivity",
+        "Accounting"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "Med-AI Clinical Intelligence",
+      "tagline": "AI drafts and validates, clinicians review, verify, and sign",
+      "url": "https://www.producthunt.com/products/med-ai-clinical-intelligence?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub",
+        "Health"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "SpeedPlayer",
+      "tagline": "video & music play fast or play slow",
+      "url": "https://www.producthunt.com/products/speedplayer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Productivity",
+        "User Experience"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "DevForge",
+      "tagline": "Fast, 100% client-side developer tools (no tracking)",
+      "url": "https://www.producthunt.com/products/devforge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Developer Tools"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "BillPulse",
+      "tagline": "GST billing, POS & inventory management made simple",
+      "url": "https://www.producthunt.com/products/billpulse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Fintech",
+        "SaaS",
+        "Accounting"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "Perplexity Hybrid Compute ",
+      "tagline": "Splitting AI tasks: Cloud for research, Mac for privacy",
+      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Mac",
+        "Artificial Intelligence"
+      ],
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
+    },
+    {
+      "name": "Flicka",
+      "tagline": "Screen recorder that lives in a browser tab. Nothing uploads",
+      "url": "https://www.producthunt.com/products/flicka?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
       "topics": [
         "Design Tools",
-        "AI"
+        "Productivity",
+        "Developer Tools"
       ],
-      "insight": "看「生成 UI → 迭代」闭环，适合作为 Agent 产品交互案例。"
-    },
-    {
-      "name": "Perplexity",
-      "tagline": "AI answer engine",
-      "url": "https://www.producthunt.com/products/perplexity-ai",
-      "votes": null,
-      "topics": [
-        "AI",
-        "Search"
-      ],
-      "insight": "检索增强与引用来源展示，是讲清 RAG 产品化的好例子。"
-    },
-    {
-      "name": "Bolt",
-      "tagline": "AI full-stack app builder",
-      "url": "https://www.producthunt.com/products/bolt-new",
-      "votes": null,
-      "topics": [
-        "Developer Tools",
-        "AI"
-      ],
-      "insight": "从提示词到可运行应用，适合分析 Agent 编排与沙箱执行。"
-    },
-    {
-      "name": "Windsurf",
-      "tagline": "Agentic IDE",
-      "url": "https://www.producthunt.com/products/windsurf-editor",
-      "votes": null,
-      "topics": [
-        "Developer Tools",
-        "AI"
-      ],
-      "insight": "对比不同 Agent IDE 的权限、上下文与协作方式。"
+      "insight": "与 AI/开发者工具相关，评估它解决的工作流是否可用 Agent 复现。",
+      "aiRelated": true
     }
   ],
   "producthuntMeta": {
-    "syncedAt": "2026-09-13T10:04:29.512Z",
-    "mode": "fallback",
-    "errors": [
-      "Error: Product Hunt API 401: {\"data\":null,\"errors\":[{\"error\":\"invalid_oauth_token\",\"error_description\":\"Please supply a valid access token. Refer to our api documentation about how to authorize an api request. Please also make sure you require the correct scopes. Eg \\\"private public\\\" for to access private endpoints.\"}]}"
-    ]
+    "syncedAt": "2026-09-13T10:08:34.542Z",
+    "mode": "api",
+    "errors": []
   },
   "links": {
     "githubMd": "23 explore/github/2026-09-13.md",

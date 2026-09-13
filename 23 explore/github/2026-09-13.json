@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "source": "github",
-  "syncedAt": "2026-09-13T10:04:29.298Z",
+  "syncedAt": "2026-09-13T10:08:34.222Z",
   "auth": true,
   "items": [
     {
@@ -10,7 +10,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389560,
+      "stars": 389561,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -21,7 +21,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-13T10:02:24Z",
+      "updatedAt": "2026-09-13T10:08:31Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
