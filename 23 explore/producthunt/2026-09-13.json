@@ -2,7 +2,7 @@
   "date": "2026-09-13",
   "source": "producthunt",
   "mode": "fallback",
-  "syncedAt": "2026-09-13T10:00:15.408Z",
+  "syncedAt": "2026-09-13T10:04:29.512Z",
   "items": [
     {
       "name": "Cursor",
@@ -72,6 +72,6 @@
     }
   ],
   "errors": [
-    "Error: oauth token 401: {\"error\":\"invalid_client\",\"error_description\":\"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.\"}。API Key/Secret 被拒绝时，请到应用页点 Create Token，把 Developer Token 设为 PRODUCTHUNT_TOKEN。"
+    "Error: Product Hunt API 401: {\"data\":null,\"errors\":[{\"error\":\"invalid_oauth_token\",\"error_description\":\"Please supply a valid access token. Refer to our api documentation about how to authorize an api request. Please also make sure you require the correct scopes. Eg \\\"private public\\\" for to access private endpoints.\"}]}"
   ]
 }
