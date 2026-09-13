@@ -2,7 +2,7 @@
   "date": "2026-09-13",
   "source": "producthunt",
   "mode": "fallback",
-  "syncedAt": "2026-09-13T09:07:59.070Z",
+  "syncedAt": "2026-09-13T09:31:52.792Z",
   "items": [
     {
       "name": "Cursor",
@@ -72,6 +72,6 @@
     }
   ],
   "errors": [
-    "未设置 PRODUCTHUNT_TOKEN，使用精选 AI/Agent 相关产品兜底。申请 token 后可拉真实热榜。"
+    "Error: oauth token 401: {\"error\":\"invalid_client\",\"error_description\":\"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.\"}。若持续失败，请在 Product Hunt 应用页点击 Create Token，把 Developer Token 写入 PRODUCTHUNT_TOKEN。"
   ]
 }

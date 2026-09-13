@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "builtAt": "2026-09-13T09:07:59.089Z",
+  "builtAt": "2026-09-13T09:26:53.710Z",
   "about": {
     "role": "Agent 学习者 / 求职者",
     "who": "# 我是谁\r\n\r\n## 基本情况\r\n\r\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\r\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\r\n- 当前阶段：打基础 + 做作品 + 关注行业新品\r\n- 协作对象：自己、同学、导师、招聘方\r\n\r\n## 我在乎什么\r\n\r\n- 每天有可验证的学习产出，不只收藏链接\r\n- 看仓库要能说出架构与可复用点\r\n- 探索要服务求职：作品集、面试表达、技术判断力\r\n\r\n## 我讨厌什么\r\n\r\n- 信息过载、只刷不练\r\n- 无目标地 star 一堆仓库\r\n- 空泛的「学习了 AI」而没有项目证据\r\n",
@@ -36,7 +36,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389556,
+      "stars": 389557,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -47,7 +47,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-13T09:07:16Z",
+      "updatedAt": "2026-09-13T09:26:45Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -56,7 +56,7 @@
       "fullName": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 285939,
+      "stars": 285945,
       "language": "Shell",
       "topics": [
         "ai",
@@ -77,7 +77,7 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 244992,
+      "stars": 244994,
       "language": "Python",
       "topics": [
         "ai",
@@ -156,7 +156,7 @@
     }
   ],
   "githubMeta": {
-    "syncedAt": "2026-09-13T09:07:58.978Z",
+    "syncedAt": "2026-09-13T09:26:53.623Z",
     "auth": false,
     "errors": []
   },
@@ -229,7 +229,7 @@
     }
   ],
   "producthuntMeta": {
-    "syncedAt": "2026-09-13T09:07:59.070Z",
+    "syncedAt": "2026-09-13T09:26:53.696Z",
     "mode": "fallback",
     "errors": [
       "未设置 PRODUCTHUNT_TOKEN，使用精选 AI/Agent 相关产品兜底。申请 token 后可拉真实热榜。"

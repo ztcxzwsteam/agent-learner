@@ -2,9 +2,12 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.example
 *.key
 findings.json
 workbench/node_modules/
 workbench/dist/
+workbench/.env
+workbench/.env.*
 .DS_Store
 Thumbs.db

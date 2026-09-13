@@ -24,6 +24,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_FETCH_TOKEN || secrets.GITHUB_TOKEN }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          PRODUCTHUNT_API_KEY: ${{ secrets.PRODUCTHUNT_API_KEY }}
+          PRODUCTHUNT_API_SECRET: ${{ secrets.PRODUCTHUNT_API_SECRET }}
         run: node scripts/build-daily.mjs
 
       - name: Commit updated board
