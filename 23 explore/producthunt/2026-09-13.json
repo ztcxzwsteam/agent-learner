@@ -2,7 +2,7 @@
   "date": "2026-09-13",
   "source": "producthunt",
   "mode": "api-today-votes-top10",
-  "syncedAt": "2026-09-13T10:26:27.206Z",
+  "syncedAt": "2026-09-13T10:32:40.251Z",
   "meta": {
     "phDay": "2026-09-13",
     "postedAfter": "2026-09-13T00:00:00-07:00",
@@ -13,6 +13,20 @@
   "items": [
     {
       "rank": 1,
+      "name": "Cognition's SWE-2",
+      "tagline": "Cognition's coding model, 64% cheaper than Fable 5.1",
+      "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #1（▲0）。观察增长与定位，思考 Agent 可切入的机会。",
+      "aiRelated": false
+    },
+    {
+      "rank": 2,
       "name": "Resurf",
       "tagline": "A Personal Context App",
       "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
@@ -24,22 +38,8 @@
         "Productivity",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #1（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #2（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
-    },
-    {
-      "rank": 2,
-      "name": "Cognition's SWE-2",
-      "tagline": "Cognition's coding model, 64% cheaper than Fable 5.1",
-      "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
-      "createdAt": "2026-09-13T07:01:00Z",
-      "featuredAt": "2026-09-13T07:01:00Z",
-      "topics": [
-        "Artificial Intelligence"
-      ],
-      "insight": "今日热榜 #2（▲0）。观察增长与定位，思考 Agent 可切入的机会。",
-      "aiRelated": false
     },
     {
       "rank": 3,
