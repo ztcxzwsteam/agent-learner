@@ -11,4 +11,13 @@
 - 「生成今日学习计划」
 - 「同步 GitHub Agent 项目」
 - 「同步 Product Hunt 今日热点」
+- 「用 DSH 搜仓库」
 - 「帮我复盘今天」
+
+## DeepSeek Harness（飞书要用 Agent）
+
+飞书静态页无法直接跑本机进程。请在电脑运行：
+
+`60 garage/start-dsh-for-feishu.bat`
+
+然后打开飞书学习台 → 搜索 → **DSH Agent**。仓库搜索可随时用，不依赖隧道。

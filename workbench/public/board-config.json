@@ -1,11 +1,17 @@
 {
   "boardUrl": "https://raw.githubusercontent.com/ztcxzwsteam/agent-learner/main/workbench/public/daily-board.json",
   "boardUrlFallback": "https://cdn.jsdelivr.net/gh/ztcxzwsteam/agent-learner@main/workbench/public/daily-board.json",
+  "dshUrl": "",
+  "dshEndpointUrl": "https://raw.githubusercontent.com/ztcxzwsteam/agent-learner/main/workbench/public/dsh-endpoint.json",
+  "dshEndpointUrlFallback": "https://cdn.jsdelivr.net/gh/ztcxzwsteam/agent-learner@main/workbench/public/dsh-endpoint.json",
+  "search": {
+    "defaultQuery": "ai agent OR mcp OR llm-agent OR tool-calling stars:>100"
+  },
   "refresh": {
     "owner": "ztcxzwsteam",
     "repo": "agent-learner",
     "workflowFile": "daily-sync.yml",
     "ref": "main"
   },
-  "note": "飞书端「刷新」会触发 GitHub Actions；dispatchToken 仅在发布到飞书时注入，不提交到仓库。"
+  "note": "飞书 DSH：本机运行 start-dsh-for-feishu.bat，写入 dsh-endpoint.json 并 push；工作台轮询该地址内嵌 Agent。"
 }
