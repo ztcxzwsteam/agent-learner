@@ -90,24 +90,24 @@ async function getAccessToken() {
   const clientSecret = process.env.PRODUCTHUNT_API_SECRET
   if (!clientId || !clientSecret) return null
 
-  // Product Hunt 官方示例使用 x-www-form-urlencoded
-  const body = new URLSearchParams({
-    client_id: clientId,
-    client_secret: clientSecret,
-    grant_type: 'client_credentials',
-  })
+  // 官方文档：JSON body + client_credentials
   const res = await fetch('https://api.producthunt.com/v2/oauth/token', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
       Accept: 'application/json',
+      'Content-Type': 'application/json',
+      Host: 'api.producthunt.com',
     },
-    body,
+    body: JSON.stringify({
+      client_id: clientId,
+      client_secret: clientSecret,
+      grant_type: 'client_credentials',
+    }),
   })
   const data = await res.json().catch(() => ({}))
   if (!res.ok) {
     throw new Error(
-      `oauth token ${res.status}: ${JSON.stringify(data).slice(0, 300)}。若持续失败，请在 Product Hunt 应用页点击 Create Token，把 Developer Token 写入 PRODUCTHUNT_TOKEN。`,
+      `oauth token ${res.status}: ${JSON.stringify(data).slice(0, 300)}。API Key/Secret 被拒绝时，请到应用页点 Create Token，把 Developer Token 设为 PRODUCTHUNT_TOKEN。`,
     )
   }
   if (!data.access_token) throw new Error('oauth response missing access_token')
