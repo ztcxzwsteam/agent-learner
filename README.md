@@ -2,6 +2,8 @@
 
 面向学习 AI Agent、准备实习/求职的每日驾驶舱。
 
+仓库：https://github.com/ztcxzwsteam/agent-learner
+
 ## 手机打开（已部署飞书）
 
 https://jcnlhhon02ge.feishuapp.com/app/app_17e16q5ddk3
@@ -21,3 +23,4 @@ npm run dev     # http://127.0.0.1:5180
 
 - `GITHUB_TOKEN`：提高 GitHub API 配额
 - `PRODUCTHUNT_TOKEN`：真实 Product Hunt 热榜；未设置时用 AI 相关精选兜底
+- 或 `PRODUCTHUNT_API_KEY` + `PRODUCTHUNT_API_SECRET`
