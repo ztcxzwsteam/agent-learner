@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-13",
+  "source": "producthunt",
+  "mode": "fallback",
+  "syncedAt": "2026-09-13T09:07:59.070Z",
+  "items": [
+    {
+      "name": "Cursor",
+      "tagline": "AI-first code editor / agentic coding",
+      "url": "https://www.producthunt.com/products/cursor",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "观察 IDE Agent 如何把工具调用、规则与工作区结合起来，对求职演示很有价值。"
+    },
+    {
+      "name": "Claude",
+      "tagline": "AI assistant with projects, artifacts, and computer use",
+      "url": "https://www.producthunt.com/products/claude",
+      "votes": null,
+      "topics": [
+        "AI",
+        "Productivity"
+      ],
+      "insight": "关注 Skills / MCP / Projects 如何沉淀成可复用工作流。"
+    },
+    {
+      "name": "v0",
+      "tagline": "AI UI generation by Vercel",
+      "url": "https://www.producthunt.com/products/v0",
+      "votes": null,
+      "topics": [
+        "Design Tools",
+        "AI"
+      ],
+      "insight": "看「生成 UI → 迭代」闭环，适合作为 Agent 产品交互案例。"
+    },
+    {
+      "name": "Perplexity",
+      "tagline": "AI answer engine",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "votes": null,
+      "topics": [
+        "AI",
+        "Search"
+      ],
+      "insight": "检索增强与引用来源展示，是讲清 RAG 产品化的好例子。"
+    },
+    {
+      "name": "Bolt",
+      "tagline": "AI full-stack app builder",
+      "url": "https://www.producthunt.com/products/bolt-new",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "从提示词到可运行应用，适合分析 Agent 编排与沙箱执行。"
+    },
+    {
+      "name": "Windsurf",
+      "tagline": "Agentic IDE",
+      "url": "https://www.producthunt.com/products/windsurf-editor",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "对比不同 Agent IDE 的权限、上下文与协作方式。"
+    }
+  ],
+  "errors": [
+    "未设置 PRODUCTHUNT_TOKEN，使用精选 AI/Agent 相关产品兜底。申请 token 后可拉真实热榜。"
+  ]
+}

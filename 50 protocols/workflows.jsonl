@@ -1,0 +1,2 @@
+{"id":"daily-start","name":"每日开局","steps":["读 10 about-me/","生成最多3条今日目标","同步 GitHub","同步 Product Hunt","打开 workbench 确认"],"created":"2026-09-13"}
+{"id":"daily-end","name":"每日收工","steps":["勾选目标","写3条收获","更新 40 memory/MEMORY.md"],"created":"2026-09-13"}

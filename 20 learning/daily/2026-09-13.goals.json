@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "id": "g1",
+      "text": "精读 1 个今日 GitHub 推荐仓库的 README，写 5 行架构笔记",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "g2",
+      "text": "从 Product Hunt 选 1 个产品，写「若用 Agent 复现会怎么做」",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "g3",
+      "text": "推进求职材料：更新简历中的 Agent 项目描述 1 段，或刷 2 道相关面试题",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    }
+  ],
+  "updatedAt": "2026-09-13T09:00:36.375Z"
+}

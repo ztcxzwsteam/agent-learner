@@ -1,0 +1,243 @@
+{
+  "date": "2026-09-13",
+  "builtAt": "2026-09-13T09:07:59.089Z",
+  "about": {
+    "role": "Agent 学习者 / 求职者",
+    "who": "# 我是谁\r\n\r\n## 基本情况\r\n\r\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\r\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\r\n- 当前阶段：打基础 + 做作品 + 关注行业新品\r\n- 协作对象：自己、同学、导师、招聘方\r\n\r\n## 我在乎什么\r\n\r\n- 每天有可验证的学习产出，不只收藏链接\r\n- 看仓库要能说出架构与可复用点\r\n- 探索要服务求职：作品集、面试表达、技术判断力\r\n\r\n## 我讨厌什么\r\n\r\n- 信息过载、只刷不练\r\n- 无目标地 star 一堆仓库\r\n- 空泛的「学习了 AI」而没有项目证据\r\n",
+    "direction": "# 求职方向\r\n\r\n> 越具体，每日目标和探索过滤越准。请按需改。\r\n\r\n## 目标岗位\r\n\r\n- 首选：AI Agent / LLM 应用开发实习\r\n- 备选：AI 产品助理、全栈 + AI 应用\r\n\r\n## 目标技术栈（学习优先级）\r\n\r\n1. Prompt / Tool calling / Agent 循环\r\n2. MCP / Skills / Workflow\r\n3. RAG 基础\r\n4. 一个前端工作台或 Demo 作品\r\n5. GitHub 作品集与简历表达\r\n\r\n## 当前缺口\r\n\r\n- [ ] 独立搭过最小 Agent Demo\r\n- [ ] 读懂过 3 个以上开源 Agent 框架差异\r\n- [ ] 有可演示的小项目 README\r\n- [ ] 能讲清一次失败调试经历\r\n\r\n## 投递节奏（可选）\r\n\r\n- 每周投递目标：_\r\n- 正在跟进的公司：_\r\n"
+  },
+  "goals": [
+    {
+      "id": "g1",
+      "text": "精读 1 个今日 GitHub 推荐仓库的 README，写 5 行架构笔记",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "g2",
+      "text": "从 Product Hunt 选 1 个产品，写「若用 Agent 复现会怎么做」",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "g3",
+      "text": "推进求职材料：更新简历中的 Agent 项目描述 1 段，或刷 2 道相关面试题",
+      "done": false,
+      "source": "系统建议",
+      "date": "2026-09-13"
+    }
+  ],
+  "github": [
+    {
+      "id": "openclaw/openclaw",
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stars": 389556,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "updatedAt": "2026-09-13T09:07:16Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 285939,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "updatedAt": "2026-09-12T00:16:38Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 244992,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "updatedAt": "2026-09-13T07:29:15Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 204140,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "updatedAt": "2026-09-13T08:53:30Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "name": "AutoGPT",
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 187294,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "updatedAt": "2026-09-13T06:10:42Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    }
+  ],
+  "githubMeta": {
+    "syncedAt": "2026-09-13T09:07:58.978Z",
+    "auth": false,
+    "errors": []
+  },
+  "producthunt": [
+    {
+      "name": "Cursor",
+      "tagline": "AI-first code editor / agentic coding",
+      "url": "https://www.producthunt.com/products/cursor",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "观察 IDE Agent 如何把工具调用、规则与工作区结合起来，对求职演示很有价值。"
+    },
+    {
+      "name": "Claude",
+      "tagline": "AI assistant with projects, artifacts, and computer use",
+      "url": "https://www.producthunt.com/products/claude",
+      "votes": null,
+      "topics": [
+        "AI",
+        "Productivity"
+      ],
+      "insight": "关注 Skills / MCP / Projects 如何沉淀成可复用工作流。"
+    },
+    {
+      "name": "v0",
+      "tagline": "AI UI generation by Vercel",
+      "url": "https://www.producthunt.com/products/v0",
+      "votes": null,
+      "topics": [
+        "Design Tools",
+        "AI"
+      ],
+      "insight": "看「生成 UI → 迭代」闭环，适合作为 Agent 产品交互案例。"
+    },
+    {
+      "name": "Perplexity",
+      "tagline": "AI answer engine",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "votes": null,
+      "topics": [
+        "AI",
+        "Search"
+      ],
+      "insight": "检索增强与引用来源展示，是讲清 RAG 产品化的好例子。"
+    },
+    {
+      "name": "Bolt",
+      "tagline": "AI full-stack app builder",
+      "url": "https://www.producthunt.com/products/bolt-new",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "从提示词到可运行应用，适合分析 Agent 编排与沙箱执行。"
+    },
+    {
+      "name": "Windsurf",
+      "tagline": "Agentic IDE",
+      "url": "https://www.producthunt.com/products/windsurf-editor",
+      "votes": null,
+      "topics": [
+        "Developer Tools",
+        "AI"
+      ],
+      "insight": "对比不同 Agent IDE 的权限、上下文与协作方式。"
+    }
+  ],
+  "producthuntMeta": {
+    "syncedAt": "2026-09-13T09:07:59.070Z",
+    "mode": "fallback",
+    "errors": [
+      "未设置 PRODUCTHUNT_TOKEN，使用精选 AI/Agent 相关产品兜底。申请 token 后可拉真实热榜。"
+    ]
+  },
+  "links": {
+    "githubMd": "23 explore/github/2026-09-13.md",
+    "phMd": "23 explore/producthunt/2026-09-13.md",
+    "goalsJson": "20 learning/daily/2026-09-13.goals.json"
+  }
+}

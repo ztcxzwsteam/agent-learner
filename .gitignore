@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+*.key
+findings.json
+workbench/node_modules/
+workbench/dist/
+.DS_Store
+Thumbs.db

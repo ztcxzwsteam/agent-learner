@@ -1,0 +1,4 @@
+{
+  "boardUrl": "",
+  "note": "填入 GitHub raw 地址后，手机端会每天拉最新看板。例如：https://raw.githubusercontent.com/<user>/<repo>/main/workbench/public/daily-board.json"
+}

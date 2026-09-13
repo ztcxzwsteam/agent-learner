@@ -1,0 +1,42 @@
+name: Daily board sync
+
+on:
+  schedule:
+    # 每天北京时间 8:00 ≈ UTC 00:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Sync GitHub + Product Hunt board
+        working-directory: workbench
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_FETCH_TOKEN || secrets.GITHUB_TOKEN }}
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+        run: node scripts/build-daily.mjs
+
+      - name: Commit updated board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            "workbench/public/daily-board.json" \
+            "23 explore" \
+            "20 learning/daily" || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: daily explore board $(date -u +%Y-%m-%d)"
+            git push
+          fi
