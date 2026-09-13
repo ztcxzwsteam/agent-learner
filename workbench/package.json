@@ -9,6 +9,8 @@
     "sync:ph": "node scripts/sync-producthunt.mjs",
     "dev": "npm run sync && vite",
     "build": "npm run sync && tsc -b && vite build",
+    "prepare-publish": "node scripts/prepare-publish.mjs",
+    "publish:feishu": "npm run build && node scripts/prepare-publish.mjs && lark-cli apps +html-publish --as user --app-id app_17e16q5ddk3 --path ./dist",
     "preview": "vite preview"
   },
   "dependencies": {

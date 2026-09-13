@@ -1,4 +1,11 @@
 {
-  "boardUrl": "https://cdn.jsdelivr.net/gh/ztcxzwsteam/agent-learner@main/workbench/public/daily-board.json",
-  "note": "仓库 https://github.com/ztcxzwsteam/agent-learner 推送后，手机端将每日拉取此看板"
+  "boardUrl": "https://raw.githubusercontent.com/ztcxzwsteam/agent-learner/main/workbench/public/daily-board.json",
+  "boardUrlFallback": "https://cdn.jsdelivr.net/gh/ztcxzwsteam/agent-learner@main/workbench/public/daily-board.json",
+  "refresh": {
+    "owner": "ztcxzwsteam",
+    "repo": "agent-learner",
+    "workflowFile": "daily-sync.yml",
+    "ref": "main"
+  },
+  "note": "飞书端「刷新」会触发 GitHub Actions；dispatchToken 仅在发布到飞书时注入，不提交到仓库。"
 }

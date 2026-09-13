@@ -1,7 +1,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import dayjs from 'dayjs'
 import type { Board, Goal, View } from './types'
-import { loadBoard } from './loadBoard'
+import {
+  actionsRunUrl,
+  loadBoard,
+  loadConfig,
+  triggerRemoteRefresh,
+  waitForBoardUpdate,
+} from './loadBoard'
 
 const NAV: { id: View; label: string; icon: string }[] = [
   { id: 'home', label: '今日', icon: '⌂' },
@@ -69,19 +75,46 @@ export default function App() {
 
   async function syncNow() {
     setSyncing(true)
-    setLog('同步中…')
+    setLog('正在刷新…')
+    const prevBuiltAt = board?.builtAt
     try {
-      const res = await fetch('/api/sync', { method: 'POST' })
-      const data = await res.json()
-      setLog(data.log || '')
-      if (data.board) {
-        setBoard(data.board)
-        setGoals(data.board.goals || [])
-      } else {
-        const b = await loadBoard()
-        setBoard(b)
-        setGoals(b.goals || [])
+      // 本地开发：直接跑同步脚本
+      try {
+        const res = await fetch('/api/sync', { method: 'POST' })
+        if (res.ok) {
+          const data = await res.json()
+          setLog(data.log || '本地同步完成')
+          if (data.board) {
+            setBoard(data.board)
+            setGoals(data.board.goals || [])
+            return
+          }
+        }
+      } catch {
+        /* 飞书静态站会走远程刷新 */
       }
+
+      const config = await loadConfig()
+      try {
+        const msg = await triggerRemoteRefresh(config)
+        setLog(`${msg}\n等待 GitHub Actions 更新看板（约 1–3 分钟）…`)
+      } catch (dispatchErr) {
+        const runUrl = actionsRunUrl(config)
+        if (runUrl) {
+          window.open(runUrl, '_blank', 'noopener,noreferrer')
+          setLog(
+            `自动触发受限（${String(dispatchErr)}）\n已打开 GitHub Actions：请点 Run workflow，然后本页会自动等待新看板…`,
+          )
+        } else {
+          throw dispatchErr
+        }
+      }
+      const next = await waitForBoardUpdate(prevBuiltAt)
+      setBoard(next)
+      setGoals(next.goals || [])
+      setLog(
+        `刷新完成\nGitHub ${next.github?.length || 0} 个 · PH 今日热榜 ${next.producthunt?.length || 0} 个\nbuiltAt=${next.builtAt}`,
+      )
     } catch (e) {
       setLog(String(e))
     } finally {
@@ -122,14 +155,15 @@ export default function App() {
                   {greeting()}！今天是 {dayjs(board.date).format('YYYY年M月D日')}
                 </h2>
                 <p>
-                  未完成目标 <b>{openGoals}</b> 项 · GitHub {board.github.length} 个 · Product Hunt{' '}
-                  {board.producthunt.length} 个
-                  {board.producthuntMeta?.mode === 'fallback' ? '（PH 为精选兜底，可配置 TOKEN）' : ''}
+                  未完成目标 <b>{openGoals}</b> 项 · GitHub {board.github.length} 个 · PH 今日热榜 Top{' '}
+                  {board.producthuntMeta?.topN || 10}：{board.producthunt.length} 个
+                  {board.producthuntMeta?.phDay ? `（PH 日 ${board.producthuntMeta.phDay}）` : ''}
+                  {board.producthuntMeta?.mode === 'fallback' ? ' · 兜底数据' : ''}
                 </p>
               </div>
               <div className="hero-actions">
-                <button className="btn primary" onClick={syncNow}>
-                  刷新今日探索
+                <button className="btn primary" onClick={syncNow} disabled={syncing}>
+                  {syncing ? '刷新中…' : '手动刷新今日数据'}
                 </button>
                 <button className="btn ghost" onClick={() => setView('goals')}>
                   编辑目标
@@ -198,7 +232,7 @@ export default function App() {
                   </div>
                   <div className="card-bd">
                     {!board.github.length ? (
-                      <div className="empty">暂无数据，点击「刷新今日探索」</div>
+                      <div className="empty">暂无数据，点击「手动刷新今日数据」</div>
                     ) : (
                       <ul className="repo-list">
                         {board.github.map((r) => (
@@ -222,15 +256,15 @@ export default function App() {
               <div className="stack">
                 <section className="card">
                   <div className="card-hd">
-                    <h3>Product Hunt 今日热点</h3>
-                    <span className="tag orange">{board.producthuntMeta?.mode || 'n/a'}</span>
+                    <h3>Product Hunt 今日热榜 Top {board.producthuntMeta?.topN || 10}</h3>
+                    <span className="tag orange">{board.producthuntMeta?.ranking || 'VOTES'}</span>
                   </div>
                   <div className="card-bd">
                     <ul className="ph-list">
-                      {board.producthunt.map((p) => (
+                      {board.producthunt.map((p, i) => (
                         <li key={p.name + p.url} className="ph-item">
                           <a href={p.url} target="_blank" rel="noreferrer">
-                            {p.name}
+                            #{p.rank || i + 1} {p.name}
                           </a>
                           <div className="meta">
                             {p.tagline}
@@ -316,14 +350,21 @@ export default function App() {
 
         {view === 'ph' && board && (
           <div className="page">
-            <h2>Product Hunt</h2>
+            <h2>Product Hunt 今日热榜 Top {board.producthuntMeta?.topN || 10}</h2>
+            <p className="meta" style={{ marginBottom: 12 }}>
+              严格按 PH 日投票热度排序
+              {board.producthuntMeta?.phDay ? ` · ${board.producthuntMeta.phDay}` : ''}
+            </p>
             <ul className="ph-list">
-              {board.producthunt.map((p) => (
+              {board.producthunt.map((p, i) => (
                 <li key={p.name + p.url} className="ph-item">
                   <a href={p.url} target="_blank" rel="noreferrer">
-                    {p.name}
+                    #{p.rank || i + 1} {p.name}
                   </a>
-                  <div className="meta">{p.tagline}</div>
+                  <div className="meta">
+                    {p.tagline}
+                    {p.votes != null ? ` · ▲ ${p.votes}` : ''}
+                  </div>
                   <div style={{ marginTop: 6 }}>{p.insight}</div>
                 </li>
               ))}

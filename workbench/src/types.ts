@@ -19,12 +19,14 @@ export type RepoItem = {
 }
 
 export type PhItem = {
+  rank?: number
   name: string
   tagline: string
   url: string
   votes: number | null
   topics?: string[]
   insight: string
+  aiRelated?: boolean
 }
 
 export type Board = {
@@ -35,7 +37,14 @@ export type Board = {
   github: RepoItem[]
   githubMeta?: { syncedAt?: string; auth?: boolean; errors?: string[] }
   producthunt: PhItem[]
-  producthuntMeta?: { syncedAt?: string; mode?: string; errors?: string[] }
+  producthuntMeta?: {
+    syncedAt?: string
+    mode?: string
+    errors?: string[]
+    phDay?: string
+    topN?: number
+    ranking?: string
+  }
   links?: Record<string, string>
   error?: string
   hint?: string

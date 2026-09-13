@@ -1,77 +1,173 @@
 {
   "date": "2026-09-13",
   "source": "producthunt",
-  "mode": "fallback",
-  "syncedAt": "2026-09-13T09:31:52.792Z",
+  "mode": "api-today-votes-top10",
+  "syncedAt": "2026-09-13T10:26:27.206Z",
+  "meta": {
+    "phDay": "2026-09-13",
+    "postedAfter": "2026-09-13T00:00:00-07:00",
+    "postedBefore": "2026-09-14T00:00:00-07:00",
+    "ranking": "VOTES",
+    "topN": 10
+  },
   "items": [
     {
-      "name": "Cursor",
-      "tagline": "AI-first code editor / agentic coding",
-      "url": "https://www.producthunt.com/products/cursor",
-      "votes": null,
-      "topics": [
-        "Developer Tools",
-        "AI"
-      ],
-      "insight": "观察 IDE Agent 如何把工具调用、规则与工作区结合起来，对求职演示很有价值。"
-    },
-    {
-      "name": "Claude",
-      "tagline": "AI assistant with projects, artifacts, and computer use",
-      "url": "https://www.producthunt.com/products/claude",
-      "votes": null,
-      "topics": [
-        "AI",
-        "Productivity"
-      ],
-      "insight": "关注 Skills / MCP / Projects 如何沉淀成可复用工作流。"
-    },
-    {
-      "name": "v0",
-      "tagline": "AI UI generation by Vercel",
-      "url": "https://www.producthunt.com/products/v0",
-      "votes": null,
+      "rank": 1,
+      "name": "Resurf",
+      "tagline": "A Personal Context App",
+      "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
         "Design Tools",
-        "AI"
+        "Productivity",
+        "Artificial Intelligence"
       ],
-      "insight": "看「生成 UI → 迭代」闭环，适合作为 Agent 产品交互案例。"
+      "insight": "今日热榜 #1（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
     },
     {
-      "name": "Perplexity",
-      "tagline": "AI answer engine",
-      "url": "https://www.producthunt.com/products/perplexity-ai",
-      "votes": null,
+      "rank": 2,
+      "name": "Cognition's SWE-2",
+      "tagline": "Cognition's coding model, 64% cheaper than Fable 5.1",
+      "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
-        "AI",
-        "Search"
+        "Artificial Intelligence"
       ],
-      "insight": "检索增强与引用来源展示，是讲清 RAG 产品化的好例子。"
+      "insight": "今日热榜 #2（▲0）。观察增长与定位，思考 Agent 可切入的机会。",
+      "aiRelated": false
     },
     {
-      "name": "Bolt",
-      "tagline": "AI full-stack app builder",
-      "url": "https://www.producthunt.com/products/bolt-new",
-      "votes": null,
+      "rank": 3,
+      "name": "ScreenCursor",
+      "tagline": "Screen recorder with auto zoom effects",
+      "url": "https://www.producthunt.com/products/screencursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
-        "Developer Tools",
-        "AI"
+        "Chrome Extensions",
+        "Productivity",
+        "Video"
       ],
-      "insight": "从提示词到可运行应用，适合分析 Agent 编排与沙箱执行。"
+      "insight": "今日热榜 #3（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
     },
     {
-      "name": "Windsurf",
-      "tagline": "Agentic IDE",
-      "url": "https://www.producthunt.com/products/windsurf-editor",
-      "votes": null,
+      "rank": 4,
+      "name": "Perplexity Hybrid Compute ",
+      "tagline": "Splitting AI tasks: Cloud for research, Mac for privacy",
+      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
-        "Developer Tools",
-        "AI"
+        "Mac",
+        "Artificial Intelligence"
       ],
-      "insight": "对比不同 Agent IDE 的权限、上下文与协作方式。"
+      "insight": "今日热榜 #4（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 5,
+      "name": "Clipwise ",
+      "tagline": "Save any page to Notion",
+      "url": "https://www.producthunt.com/products/clipwise-notion-web-clipper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Chrome Extensions",
+        "Productivity",
+        "Notion"
+      ],
+      "insight": "今日热榜 #5（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 6,
+      "name": "Visiby",
+      "tagline": "Track and grow your visibility across AI search",
+      "url": "https://www.producthunt.com/products/visiby?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Marketing",
+        "SEO",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #6（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 7,
+      "name": "DemoTV",
+      "tagline": "The audience-ranked TV channel for product demos",
+      "url": "https://www.producthunt.com/products/demotv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Marketing",
+        "Advertising",
+        "SaaS"
+      ],
+      "insight": "今日热榜 #7（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 8,
+      "name": "Neopress",
+      "tagline": "Build and grow your website by chatting with AI",
+      "url": "https://www.producthunt.com/products/neopress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "SEO",
+        "Website Builder",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #8（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 9,
+      "name": "Epilude Notetaker",
+      "tagline": "100% private meeting notes",
+      "url": "https://www.producthunt.com/products/epilude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #9（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 10,
+      "name": "GhostWriter by MyHandler",
+      "tagline": "Two taps and it's already written",
+      "url": "https://www.producthunt.com/products/ghostwriter-by-myhandler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 0,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Productivity",
+        "Writing",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #10（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
     }
   ],
-  "errors": [
-    "Error: oauth token 401: {\"error\":\"invalid_client\",\"error_description\":\"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.\"}。若持续失败，请在 Product Hunt 应用页点击 Create Token，把 Developer Token 写入 PRODUCTHUNT_TOKEN。"
-  ]
+  "errors": []
 }

@@ -87,7 +87,14 @@ function main() {
     github: github?.items || [],
     githubMeta: { syncedAt: github?.syncedAt, auth: github?.auth, errors: github?.errors || [] },
     producthunt: ph?.items || [],
-    producthuntMeta: { syncedAt: ph?.syncedAt, mode: ph?.mode, errors: ph?.errors || [] },
+    producthuntMeta: {
+      syncedAt: ph?.syncedAt,
+      mode: ph?.mode,
+      errors: ph?.errors || [],
+      phDay: ph?.meta?.phDay,
+      topN: ph?.meta?.topN ?? 10,
+      ranking: ph?.meta?.ranking || 'VOTES',
+    },
     links: {
       githubMd: `23 explore/github/${date}.md`,
       phMd: `23 explore/producthunt/${date}.md`,
