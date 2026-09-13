@@ -1,8 +1,8 @@
 {
   "date": "2026-09-13",
   "source": "github",
-  "syncedAt": "2026-09-13T09:26:53.623Z",
-  "auth": false,
+  "syncedAt": "2026-09-13T10:00:15.145Z",
+  "auth": true,
   "items": [
     {
       "id": "openclaw/openclaw",
@@ -10,7 +10,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389557,
+      "stars": 389559,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -21,7 +21,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-13T09:26:45Z",
+      "updatedAt": "2026-09-13T09:58:20Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -30,7 +30,7 @@
       "fullName": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 285945,
+      "stars": 285952,
       "language": "Shell",
       "topics": [
         "ai",
@@ -51,7 +51,7 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 244994,
+      "stars": 245001,
       "language": "Python",
       "topics": [
         "ai",
@@ -110,7 +110,7 @@
       "fullName": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 187294,
+      "stars": 187296,
       "language": "Python",
       "topics": [
         "agentic-ai",
