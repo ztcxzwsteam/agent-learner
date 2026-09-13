@@ -1,4 +1,4 @@
 {
-  "boardUrl": "",
-  "note": "填入 GitHub raw 地址后，手机端会每天拉最新看板。例如：https://raw.githubusercontent.com/<user>/<repo>/main/workbench/public/daily-board.json"
+  "boardUrl": "https://cdn.jsdelivr.net/gh/ztcxzwsteam/agent-learner@main/workbench/public/daily-board.json",
+  "note": "仓库 https://github.com/ztcxzwsteam/agent-learner 推送后，手机端将每日拉取此看板"
 }
