@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "builtAt": "2026-09-13T10:32:40.318Z",
+  "builtAt": "2026-09-13T12:07:53.945Z",
   "about": {
     "role": "Agent 学习者 / 求职者",
     "who": "# 我是谁\n\n## 基本情况\n\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\n- 当前阶段：打基础 + 做作品 + 关注行业新品\n- 协作对象：自己、同学、导师、招聘方\n\n## 我在乎什么\n\n- 每天有可验证的学习产出，不只收藏链接\n- 看仓库要能说出架构与可复用点\n- 探索要服务求职：作品集、面试表达、技术判断力\n\n## 我讨厌什么\n\n- 信息过载、只刷不练\n- 无目标地 star 一堆仓库\n- 空泛的「学习了 AI」而没有项目证据\n",
@@ -36,7 +36,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389563,
+      "stars": 389569,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -47,7 +47,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-13T10:32:31Z",
+      "updatedAt": "2026-09-13T12:07:22Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -56,7 +56,7 @@
       "fullName": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 285960,
+      "stars": 285992,
       "language": "Shell",
       "topics": [
         "ai",
@@ -77,7 +77,7 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 245005,
+      "stars": 245024,
       "language": "Python",
       "topics": [
         "ai",
@@ -94,7 +94,7 @@
         "nous-research",
         "openai"
       ],
-      "updatedAt": "2026-09-13T07:29:15Z",
+      "updatedAt": "2026-09-13T12:07:13Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -103,7 +103,7 @@
       "fullName": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 204140,
+      "stars": 204145,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -136,7 +136,7 @@
       "fullName": "Significant-Gravitas/AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 187296,
+      "stars": 187294,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -156,31 +156,46 @@
     }
   ],
   "githubMeta": {
-    "syncedAt": "2026-09-13T10:32:39.566Z",
-    "auth": false,
+    "syncedAt": "2026-09-13T12:07:53.254Z",
+    "auth": true,
     "errors": []
   },
   "producthunt": [
     {
       "rank": 1,
+      "name": "Perplexity Hybrid Compute ",
+      "tagline": "Splitting AI tasks: Cloud for research, Mac for privacy",
+      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 117,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Mac",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #1（▲117）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 2,
       "name": "Cognition's SWE-2",
       "tagline": "Cognition's coding model, 64% cheaper than Fable 5.1",
       "url": "https://www.producthunt.com/products/cognition-s-swe-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 113,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #1（▲0）。观察增长与定位，思考 Agent 可切入的机会。",
+      "insight": "今日热榜 #2（▲113）。观察增长与定位，思考 Agent 可切入的机会。",
       "aiRelated": false
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Resurf",
       "tagline": "A Personal Context App",
       "url": "https://www.producthunt.com/products/resurf-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 113,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
@@ -188,15 +203,15 @@
         "Productivity",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #2（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #3（▲113）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "ScreenCursor",
       "tagline": "Screen recorder with auto zoom effects",
       "url": "https://www.producthunt.com/products/screencursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 109,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
@@ -204,22 +219,7 @@
         "Productivity",
         "Video"
       ],
-      "insight": "今日热榜 #3（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
-      "aiRelated": true
-    },
-    {
-      "rank": 4,
-      "name": "Perplexity Hybrid Compute ",
-      "tagline": "Splitting AI tasks: Cloud for research, Mac for privacy",
-      "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
-      "createdAt": "2026-09-13T07:01:00Z",
-      "featuredAt": "2026-09-13T07:01:00Z",
-      "topics": [
-        "Mac",
-        "Artificial Intelligence"
-      ],
-      "insight": "今日热榜 #4（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #4（▲109）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -227,7 +227,7 @@
       "name": "Clipwise ",
       "tagline": "Save any page to Notion",
       "url": "https://www.producthunt.com/products/clipwise-notion-web-clipper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 93,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
@@ -235,31 +235,15 @@
         "Productivity",
         "Notion"
       ],
-      "insight": "今日热榜 #5（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #5（▲93）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
       "rank": 6,
-      "name": "Visiby",
-      "tagline": "Track and grow your visibility across AI search",
-      "url": "https://www.producthunt.com/products/visiby?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
-      "createdAt": "2026-09-13T07:01:00Z",
-      "featuredAt": "2026-09-13T07:01:00Z",
-      "topics": [
-        "Marketing",
-        "SEO",
-        "Artificial Intelligence"
-      ],
-      "insight": "今日热榜 #6（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
-      "aiRelated": true
-    },
-    {
-      "rank": 7,
       "name": "DemoTV",
       "tagline": "The audience-ranked TV channel for product demos",
       "url": "https://www.producthunt.com/products/demotv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 92,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
@@ -267,15 +251,61 @@
         "Advertising",
         "SaaS"
       ],
-      "insight": "今日热榜 #7（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #6（▲92）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "aiRelated": true
+    },
+    {
+      "rank": 7,
+      "name": "Visiby",
+      "tagline": "Track and grow your visibility across AI search",
+      "url": "https://www.producthunt.com/products/visiby?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 91,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Marketing",
+        "SEO",
+        "Artificial Intelligence"
+      ],
+      "insight": "今日热榜 #7（▲91）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
       "rank": 8,
+      "name": "SHIUI",
+      "tagline": "Hinomaru Ink Web UI Kit in Japanese Hinomaru style",
+      "url": "https://www.producthunt.com/products/shiui-hinomaru-ink-ui-kit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 90,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Design Tools",
+        "User Experience",
+        "Web Design"
+      ],
+      "insight": "今日热榜 #8（▲90）。观察增长与定位，思考 Agent 可切入的机会。",
+      "aiRelated": false
+    },
+    {
+      "rank": 9,
+      "name": "Kirokune",
+      "tagline": "Keep work incident notes on your iPhone, without an account",
+      "url": "https://www.producthunt.com/products/kirokune?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
+      "votes": 86,
+      "createdAt": "2026-09-13T07:01:00Z",
+      "featuredAt": "2026-09-13T07:01:00Z",
+      "topics": [
+        "Notes"
+      ],
+      "insight": "今日热榜 #9（▲86）。观察增长与定位，思考 Agent 可切入的机会。",
+      "aiRelated": false
+    },
+    {
+      "rank": 10,
       "name": "Neopress",
       "tagline": "Build and grow your website by chatting with AI",
       "url": "https://www.producthunt.com/products/neopress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
+      "votes": 84,
       "createdAt": "2026-09-13T07:01:00Z",
       "featuredAt": "2026-09-13T07:01:00Z",
       "topics": [
@@ -283,44 +313,12 @@
         "Website Builder",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #8（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
-      "aiRelated": true
-    },
-    {
-      "rank": 9,
-      "name": "Epilude Notetaker",
-      "tagline": "100% private meeting notes",
-      "url": "https://www.producthunt.com/products/epilude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
-      "createdAt": "2026-09-13T07:01:00Z",
-      "featuredAt": "2026-09-13T07:01:00Z",
-      "topics": [
-        "Productivity",
-        "Meetings",
-        "Artificial Intelligence"
-      ],
-      "insight": "今日热榜 #9（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
-      "aiRelated": true
-    },
-    {
-      "rank": 10,
-      "name": "GhostWriter by MyHandler",
-      "tagline": "Two taps and it's already written",
-      "url": "https://www.producthunt.com/products/ghostwriter-by-myhandler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 0,
-      "createdAt": "2026-09-13T07:01:00Z",
-      "featuredAt": "2026-09-13T07:01:00Z",
-      "topics": [
-        "Productivity",
-        "Writing",
-        "Artificial Intelligence"
-      ],
-      "insight": "今日热榜 #10（▲0）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #10（▲84）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     }
   ],
   "producthuntMeta": {
-    "syncedAt": "2026-09-13T10:32:40.251Z",
+    "syncedAt": "2026-09-13T12:07:53.902Z",
     "mode": "api-today-votes-top10",
     "errors": [],
     "phDay": "2026-09-13",
