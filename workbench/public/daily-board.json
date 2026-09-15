@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "builtAt": "2026-09-15T02:41:09.378Z",
+  "builtAt": "2026-09-15T03:36:05.161Z",
   "about": {
     "role": "Agent 学习者 / 求职者",
     "who": "# 我是谁\n\n## 基本情况\n\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\n- 当前阶段：打基础 + 做作品 + 关注行业新品\n- 协作对象：自己、同学、导师、招聘方\n\n## 我在乎什么\n\n- 每天有可验证的学习产出，不只收藏链接\n- 看仓库要能说出架构与可复用点\n- 探索要服务求职：作品集、面试表达、技术判断力\n\n## 我讨厌什么\n\n- 信息过载、只刷不练\n- 无目标地 star 一堆仓库\n- 空泛的「学习了 AI」而没有项目证据\n",
@@ -36,7 +36,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389712,
+      "stars": 389715,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -47,7 +47,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-15T02:41:00Z",
+      "updatedAt": "2026-09-15T03:34:51Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -56,7 +56,7 @@
       "fullName": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 286730,
+      "stars": 286759,
       "language": "Shell",
       "topics": [
         "ai",
@@ -77,7 +77,7 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 245541,
+      "stars": 245550,
       "language": "Python",
       "topics": [
         "ai",
@@ -94,7 +94,7 @@
         "nous-research",
         "openai"
       ],
-      "updatedAt": "2026-09-15T02:38:14Z",
+      "updatedAt": "2026-09-15T03:32:20Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -103,7 +103,7 @@
       "fullName": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 204324,
+      "stars": 204327,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -127,7 +127,7 @@
         "workflow",
         "workflow-automation"
       ],
-      "updatedAt": "2026-09-15T00:04:20Z",
+      "updatedAt": "2026-09-15T03:35:30Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -151,12 +151,12 @@
         "openai",
         "python"
       ],
-      "updatedAt": "2026-09-15T02:26:10Z",
+      "updatedAt": "2026-09-15T03:27:01Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     }
   ],
   "githubMeta": {
-    "syncedAt": "2026-09-15T02:41:08.578Z",
+    "syncedAt": "2026-09-15T03:36:04.732Z",
     "auth": true,
     "errors": []
   },
@@ -166,7 +166,7 @@
       "name": "Naoma AI Demo Agent V2",
       "tagline": "Turns website traffic into booked, qualified meetings",
       "url": "https://www.producthunt.com/products/naoma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 448,
+      "votes": 447,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -174,7 +174,7 @@
         "Marketing",
         "Marketing automation"
       ],
-      "insight": "今日热榜 #1（▲448）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #1（▲447）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -182,7 +182,7 @@
       "name": "Web Search Agents by Nimble",
       "tagline": "Self-learning agents automate web research + retrieval",
       "url": "https://www.producthunt.com/products/nimbleway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 311,
+      "votes": 317,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -190,7 +190,7 @@
         "Developer Tools",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #2（▲311）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #2（▲317）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -230,7 +230,7 @@
       "name": "Oats",
       "tagline": "Free, open-source, and on device meeting notetaker",
       "url": "https://www.producthunt.com/products/oats-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 218,
+      "votes": 219,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -239,7 +239,7 @@
         "Artificial Intelligence",
         "GitHub"
       ],
-      "insight": "今日热榜 #5（▲218）。观察增长与定位，思考 Agent 可切入的机会。",
+      "insight": "今日热榜 #5（▲219）。观察增长与定位，思考 Agent 可切入的机会。",
       "aiRelated": false
     },
     {
@@ -247,7 +247,7 @@
       "name": "Elva",
       "tagline": "Goodbye, Postman. Your APIs have new consumers",
       "url": "https://www.producthunt.com/products/elva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 187,
+      "votes": 203,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -255,7 +255,7 @@
         "Developer Tools",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #6（▲187）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #6（▲203）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -263,7 +263,7 @@
       "name": "Aside",
       "tagline": "AI browser that actually gets work done for you",
       "url": "https://www.producthunt.com/products/aside-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 147,
+      "votes": 146,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -271,7 +271,7 @@
         "User Experience",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #7（▲147）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #7（▲146）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -323,7 +323,7 @@
     }
   ],
   "producthuntMeta": {
-    "syncedAt": "2026-09-15T02:41:09.329Z",
+    "syncedAt": "2026-09-15T03:36:05.109Z",
     "mode": "api-today-votes-top10",
     "errors": [],
     "phDay": "2026-09-14",

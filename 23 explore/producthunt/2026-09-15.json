@@ -2,7 +2,7 @@
   "date": "2026-09-15",
   "source": "producthunt",
   "mode": "api-today-votes-top10",
-  "syncedAt": "2026-09-15T02:41:09.329Z",
+  "syncedAt": "2026-09-15T03:36:05.109Z",
   "meta": {
     "phDay": "2026-09-14",
     "postedAfter": "2026-09-14T00:00:00-07:00",
@@ -16,7 +16,7 @@
       "name": "Naoma AI Demo Agent V2",
       "tagline": "Turns website traffic into booked, qualified meetings",
       "url": "https://www.producthunt.com/products/naoma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 448,
+      "votes": 447,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -24,7 +24,7 @@
         "Marketing",
         "Marketing automation"
       ],
-      "insight": "今日热榜 #1（▲448）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #1（▲447）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -32,7 +32,7 @@
       "name": "Web Search Agents by Nimble",
       "tagline": "Self-learning agents automate web research + retrieval",
       "url": "https://www.producthunt.com/products/nimbleway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 311,
+      "votes": 317,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -40,7 +40,7 @@
         "Developer Tools",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #2（▲311）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #2（▲317）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -80,7 +80,7 @@
       "name": "Oats",
       "tagline": "Free, open-source, and on device meeting notetaker",
       "url": "https://www.producthunt.com/products/oats-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 218,
+      "votes": 219,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -89,7 +89,7 @@
         "Artificial Intelligence",
         "GitHub"
       ],
-      "insight": "今日热榜 #5（▲218）。观察增长与定位，思考 Agent 可切入的机会。",
+      "insight": "今日热榜 #5（▲219）。观察增长与定位，思考 Agent 可切入的机会。",
       "aiRelated": false
     },
     {
@@ -97,7 +97,7 @@
       "name": "Elva",
       "tagline": "Goodbye, Postman. Your APIs have new consumers",
       "url": "https://www.producthunt.com/products/elva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 187,
+      "votes": 203,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -105,7 +105,7 @@
         "Developer Tools",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #6（▲187）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #6（▲203）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {
@@ -113,7 +113,7 @@
       "name": "Aside",
       "tagline": "AI browser that actually gets work done for you",
       "url": "https://www.producthunt.com/products/aside-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Github-Agent+%28ID%3A+299130%29",
-      "votes": 147,
+      "votes": 146,
       "createdAt": "2026-09-14T07:01:00Z",
       "featuredAt": "2026-09-14T07:01:00Z",
       "topics": [
@@ -121,7 +121,7 @@
         "User Experience",
         "Artificial Intelligence"
       ],
-      "insight": "今日热榜 #7（▲147）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
+      "insight": "今日热榜 #7（▲146）。与 AI/开发相关，可评估能否用 Agent 复现其核心工作流。",
       "aiRelated": true
     },
     {

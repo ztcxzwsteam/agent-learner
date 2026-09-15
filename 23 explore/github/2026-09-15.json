@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
   "source": "github",
-  "syncedAt": "2026-09-15T02:41:08.578Z",
+  "syncedAt": "2026-09-15T03:36:04.732Z",
   "auth": true,
   "items": [
     {
@@ -10,7 +10,7 @@
       "fullName": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389712,
+      "stars": 389715,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -21,7 +21,7 @@
         "own-your-data",
         "personal"
       ],
-      "updatedAt": "2026-09-15T02:41:00Z",
+      "updatedAt": "2026-09-15T03:34:51Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -30,7 +30,7 @@
       "fullName": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 286730,
+      "stars": 286759,
       "language": "Shell",
       "topics": [
         "ai",
@@ -51,7 +51,7 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 245541,
+      "stars": 245550,
       "language": "Python",
       "topics": [
         "ai",
@@ -68,7 +68,7 @@
         "nous-research",
         "openai"
       ],
-      "updatedAt": "2026-09-15T02:38:14Z",
+      "updatedAt": "2026-09-15T03:32:20Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -77,7 +77,7 @@
       "fullName": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 204324,
+      "stars": 204327,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -101,7 +101,7 @@
         "workflow",
         "workflow-automation"
       ],
-      "updatedAt": "2026-09-15T00:04:20Z",
+      "updatedAt": "2026-09-15T03:35:30Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     },
     {
@@ -125,7 +125,7 @@
         "openai",
         "python"
       ],
-      "updatedAt": "2026-09-15T02:26:10Z",
+      "updatedAt": "2026-09-15T03:27:01Z",
       "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
     }
   ],
