@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-15",
+  "source": "github",
+  "syncedAt": "2026-09-15T02:40:12.333Z",
+  "auth": true,
+  "items": [
+    {
+      "id": "openclaw/openclaw",
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stars": 389712,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "updatedAt": "2026-09-15T02:38:25Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 286730,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "updatedAt": "2026-09-14T18:42:08Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 245541,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "updatedAt": "2026-09-15T02:38:14Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 204324,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "updatedAt": "2026-09-15T00:04:20Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "name": "AutoGPT",
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 187346,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "updatedAt": "2026-09-15T02:26:10Z",
+      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
+    }
+  ],
+  "errors": []
+}

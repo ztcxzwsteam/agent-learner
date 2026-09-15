@@ -1,166 +1,16 @@
 {
   "date": "2026-09-15",
-  "builtAt": "2026-09-15T02:40:12.832Z",
-  "about": {
-    "role": "Agent 学习者 / 求职者",
-    "who": "# 我是谁\n\n## 基本情况\n\n- 我是：正在学习 AI Agent 的求职者 / 准实习生\n- 目标方向：Agent 应用开发 / AI 产品 / 相关实习岗位（可再细化）\n- 当前阶段：打基础 + 做作品 + 关注行业新品\n- 协作对象：自己、同学、导师、招聘方\n\n## 我在乎什么\n\n- 每天有可验证的学习产出，不只收藏链接\n- 看仓库要能说出架构与可复用点\n- 探索要服务求职：作品集、面试表达、技术判断力\n\n## 我讨厌什么\n\n- 信息过载、只刷不练\n- 无目标地 star 一堆仓库\n- 空泛的「学习了 AI」而没有项目证据\n",
-    "direction": "# 求职方向\n\n> 越具体，每日目标和探索过滤越准。请按需改。\n\n## 目标岗位\n\n- 首选：AI Agent / LLM 应用开发实习\n- 备选：AI 产品助理、全栈 + AI 应用\n\n## 目标技术栈（学习优先级）\n\n1. Prompt / Tool calling / Agent 循环\n2. MCP / Skills / Workflow\n3. RAG 基础\n4. 一个前端工作台或 Demo 作品\n5. GitHub 作品集与简历表达\n\n## 当前缺口\n\n- [ ] 独立搭过最小 Agent Demo\n- [ ] 读懂过 3 个以上开源 Agent 框架差异\n- [ ] 有可演示的小项目 README\n- [ ] 能讲清一次失败调试经历\n\n## 投递节奏（可选）\n\n- 每周投递目标：_\n- 正在跟进的公司：_\n"
+  "source": "producthunt",
+  "mode": "api-today-votes-top10",
+  "syncedAt": "2026-09-15T02:40:12.783Z",
+  "meta": {
+    "phDay": "2026-09-14",
+    "postedAfter": "2026-09-14T00:00:00-07:00",
+    "postedBefore": "2026-09-15T00:00:00-07:00",
+    "ranking": "VOTES",
+    "topN": 10
   },
-  "goals": [
-    {
-      "id": "g1",
-      "text": "精读 1 个今日 GitHub 推荐仓库的 README，写 5 行架构笔记",
-      "done": false,
-      "source": "系统建议",
-      "date": "2026-09-15"
-    },
-    {
-      "id": "g2",
-      "text": "从 Product Hunt 选 1 个产品，写「若用 Agent 复现会怎么做」",
-      "done": false,
-      "source": "系统建议",
-      "date": "2026-09-15"
-    },
-    {
-      "id": "g3",
-      "text": "推进求职材料：更新简历中的 Agent 项目描述 1 段，或刷 2 道相关面试题",
-      "done": false,
-      "source": "系统建议",
-      "date": "2026-09-15"
-    }
-  ],
-  "github": [
-    {
-      "id": "openclaw/openclaw",
-      "name": "openclaw",
-      "fullName": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 389712,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "assistant",
-        "crustacean",
-        "molty",
-        "openclaw",
-        "own-your-data",
-        "personal"
-      ],
-      "updatedAt": "2026-09-15T02:38:25Z",
-      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
-    },
-    {
-      "id": "obra/superpowers",
-      "name": "superpowers",
-      "fullName": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 286730,
-      "language": "Shell",
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "updatedAt": "2026-09-14T18:42:08Z",
-      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
-    },
-    {
-      "id": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "fullName": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "stars": 245541,
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "nous-research",
-        "openai"
-      ],
-      "updatedAt": "2026-09-15T02:38:14Z",
-      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
-    },
-    {
-      "id": "n8n-io/n8n",
-      "name": "n8n",
-      "fullName": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 204324,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
-      ],
-      "updatedAt": "2026-09-15T00:04:20Z",
-      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
-    },
-    {
-      "id": "Significant-Gravitas/AutoGPT",
-      "name": "AutoGPT",
-      "fullName": "Significant-Gravitas/AutoGPT",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 187346,
-      "language": "Python",
-      "topics": [
-        "agentic-ai",
-        "agents",
-        "ai",
-        "artificial-intelligence",
-        "autonomous-agents",
-        "claude",
-        "gpt",
-        "llama-api",
-        "llm",
-        "openai",
-        "python"
-      ],
-      "updatedAt": "2026-09-15T02:26:10Z",
-      "reason": "GitHub 搜索：高星 Agent / MCP / LLM Agent 相关"
-    }
-  ],
-  "githubMeta": {
-    "syncedAt": "2026-09-15T02:40:12.333Z",
-    "auth": true,
-    "errors": []
-  },
-  "producthunt": [
+  "items": [
     {
       "rank": 1,
       "name": "Naoma AI Demo Agent V2",
@@ -322,17 +172,5 @@
       "aiRelated": true
     }
   ],
-  "producthuntMeta": {
-    "syncedAt": "2026-09-15T02:40:12.783Z",
-    "mode": "api-today-votes-top10",
-    "errors": [],
-    "phDay": "2026-09-14",
-    "topN": 10,
-    "ranking": "VOTES"
-  },
-  "links": {
-    "githubMd": "23 explore/github/2026-09-15.md",
-    "phMd": "23 explore/producthunt/2026-09-15.md",
-    "goalsJson": "20 learning/daily/2026-09-15.goals.json"
-  }
+  "errors": []
 }
